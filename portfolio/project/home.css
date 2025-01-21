@@ -36,6 +36,9 @@ nav ul li a {
     margin-left: 30px;
 }
 
+nav ul li a {
+    text-decoration: underline;
+}
 header h1 {
     color: white;
     font-family: monospace;
