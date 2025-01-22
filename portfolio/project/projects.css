@@ -40,9 +40,13 @@ h2 {
 h1 {
     color: white;
 }
+
 main{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 #main{
     display: grid;
     grid-template-rows: 200px 300px;
@@ -109,4 +113,66 @@ p{
 #portfolio {
     color: gold;
     font-size: 30px;
+}
+
+@media screen and (max-width: 900px){
+    #main {
+        grid-template-rows: 100px 200px;
+        grid-template-columns: 200px 200px 200px;
+        width: 600px;
+        height: 300px;
+
+    }
+    #html{
+        font-size: 20px;
+    }
+    #css{
+        font-size: 20px;
+        
+    }
+    #python-1{
+        font-size: 20px;
+     
+    }
+    #python-2{
+        font-size: 20px;
+        
+    }
+    #skill {
+        font-size: 20px;
+       
+    }
+    #how {
+        font-size: 20px;
+      
+    }
+    #many {
+        font-size: 20px;
+       
+    }
+    #project {
+        font-size: 20px;
+        
+    }
+    
+    #calculator {
+        font-size: 20px;
+      
+    }
+    #game {
+        font-size: 20px;
+       
+    }
+    #rock {
+        font-size: 20px;
+        
+    }
+    #portfolio {
+        font-size: 20px;
+        
+    }
+
+    
+
+
 }

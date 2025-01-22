@@ -84,3 +84,9 @@ footer {
     padding: 30px;
     background-color: #353535;
 }
+
+@media screen and (max-width: 700px){
+    main {
+        flex-direction: column;
+    }
+}
